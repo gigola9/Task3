@@ -1,0 +1,27 @@
+body {
+    padding: 0px;
+    margin: 0px
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 10px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 24%;
+    gap: 20px;
+}
+
+.green {
+    background-color: #99ce1c;
+    border: 3px solid black;
+    height: 100%;
+}

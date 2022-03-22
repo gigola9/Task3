@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 49%;
+}
+
+.title-buy {
+    width: 49%;
+}
+
+
+.margin {
+    width: 10%;
+}
+
+.content {
+    width: 80%;
+}
+
+.galery {
+    width: 50%;
+}
+
+.title {
+    height: 20%;
+}
+
+.buy-box {
+    height: 75%;
+}
+
+.description {
+    height: 24%;
+}
+
+.related
+{
+    height: 24%;
+}
